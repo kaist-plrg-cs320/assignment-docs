@@ -5,9 +5,9 @@ The course has 5 coding exercises (no submission required) and 3 projects
 
 * [Exercise #1: Scala Tutorial](/ex1)
 * [Exercise #2: Identifiers](/ex2)
-* Exercise #3: MVAE
-* Exercise #5: MRFVAE
-* Exercise #6: SRBFAE
+* [Exercise #3: MVAE](/ex3)
+* [Exercise #5: MRFVAE](/ex5)
+* [Exercise #6: SRBFAE](/ex6)
 * Project #1: FIBER
 * Project #2: X-FIBER
 * Project #3: FABRIC

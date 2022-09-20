@@ -11,6 +11,15 @@ sbt new kaist-plrg-cs320/identifiers.g8
 
 ## Descriptions
 
+Expressions are defined in `core/src/main/scala/cs320/Expr.scala`:
+```
+e ::= n
+    | e + e
+    | e - e
+    | val x = e; e
+    | x
+```
+
 * `freeIds` takes an expression
   and returns the set of every free identifier in the expression.
 ```scala

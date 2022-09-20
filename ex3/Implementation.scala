@@ -2,8 +2,16 @@ package cs320
 
 object Implementation extends Template {
 
-  def binOp(op: (Int, Int) => Int, ls: List[Int], rs: List[Int]): List[Int] =
-    for (l <- ls; r <- rs) yield op(l, r)
+  def binOp(
+    op: (Int, Int) => Int,
+    ls: List[Int],
+    rs: List[Int]
+  ): List[Int] = ls match {
+    case Nil => Nil
+    case l :: rest =>
+      def f(r: Int): Int = op(l, r)
+      rs.map(f) ++ binOp(op, rest, rs)
+  }
 
   type Env = Map[String, List[Int]]
 
