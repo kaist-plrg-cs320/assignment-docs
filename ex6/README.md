@@ -72,6 +72,9 @@ $e::=\cdots\ |\ e;\cdots;e\ |\ \lbrace f=e,\cdots,f=e\rbrace\ |\ e.f\ |\ e.f:=e$
 
 $v::=\cdots\ \| \lbrace f=a,\cdots,f=a\rbrace$
 
+Expressions are defined in `core/src/main/scala/cs320/Expr.scala`, and values
+are defined in `core/src/main/scala/cs320/Value.scala`.
+
 ### Operational Semantics
 
 $\Large\frac{\sigma,M_0\vdash e_1\Rightarrow v_1,M_1\quad\cdots\quad\sigma,M_{n-1}\vdash e_n\Rightarrow v_n,M_n}{ \sigma,M_0\vdash e_1;\cdots;e_n\Rightarrow v_n,M_n}$

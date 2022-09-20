@@ -60,7 +60,7 @@ It is enough to edit only this file to finish the assignment.
 
 * `core/src/main/scala/cs320/Template.scala`:
 This file contains the definitions of functions that you must implement to
-complete the exercise.
+complete the assignment.
 
 * `core/src/main/scala/package.scala`:
 This file defines `error` functions. You can throw an exception with an error
@@ -170,7 +170,8 @@ for the projects.)
 ### Fuzzing
 
 Each project (but no exercise) provides a fuzzer. A fuzzer randomly generates
-expressions to test your interpreter.
+expressions to test your interpreter. You need to install
+[Node.js](https://nodejs.org/en/download/) on your machine to use the fuzzer.
 
 Execute the `run fuzzer` command to use the fuzzer.
 

@@ -65,6 +65,8 @@ expr ::= ...
 
 $e::=\cdots\ |\ (n,\cdots, n)\ |\ \min(e,e,e)\ |\ \max(e,e,e)$
 
+Expressions are defined in `core/src/main/scala/cs320/Expr.scala`.
+
 ### Operational Semantics
 
 $\sigma\vdash (n_1,\cdots,n_i) \Rightarrow (n_1,\cdots,n_i)$

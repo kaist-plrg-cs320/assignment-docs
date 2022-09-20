@@ -80,6 +80,9 @@ $e::=\cdots\ |\ \lambda x\cdots x.e\ |\ e(e,\cdots,e)\ |\ \lbrace f=e,\cdots,f=e
 
 $v::=\cdots\ |\ \langle\lambda x\cdots x.e,\sigma\rangle\ |\ \lbrace f=v,\cdots,f=v\rbrace$
 
+Expressions are defined in `core/src/main/scala/cs320/Expr.scala`, and values
+are defined in `core/src/main/scala/cs320/Value.scala`.
+
 ### Operational Semantics
 
 $\sigma\vdash\lambda x_1\cdots x_n.e\Rightarrow\langle\lambda x_1\cdots x_n.e,\sigma\rangle$
