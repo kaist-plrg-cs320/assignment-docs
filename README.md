@@ -4,7 +4,7 @@ The course has 5 coding exercises (no submission required) and 3 projects
 (submission required).
 
 * [Exercise #1: Scala Tutorial](/ex1)
-* Exercise #2: Identifiers
+* [Exercise #2: Identifiers](/ex2)
 * Exercise #3: MVAE
 * Exercise #5: MRFVAE
 * Exercise #6: SRBFAE
