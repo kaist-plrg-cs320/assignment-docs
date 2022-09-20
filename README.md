@@ -3,7 +3,7 @@
 The course has 5 coding exercises (no submission required) and 3 projects
 (submission required).
 
-* Exercise #1: Scala Tutorial
+* [Exercise #1: Scala Tutorial](/ex1)
 * Exercise #2: Identifiers
 * Exercise #3: MVAE
 * Exercise #5: MRFVAE
@@ -50,7 +50,7 @@ core/src
     - Spec.scala
 ```
 
-**DO NOT** edit files any other than
+**DO NOT** edit files other than
 `core/src/main/scala/cs320/Implementation.scala` and
 `core/src/test/scala/cs320/Spec.scala`.
 
@@ -86,7 +86,7 @@ You must not use any of the following features in your implementation:
 * `try-catch`
 * mutable data structures
 
-You can use any other features that are not explicitly forbidded. For example,
+You can use any other features that are not explicitly forbidden. For example,
 
 * You can define helper functions and additional types.
 * You can use immutable data structures.
@@ -94,7 +94,7 @@ You can use any other features that are not explicitly forbidded. For example,
 * You can mutate mutable variables/fields already defined in the provided code.
 
 The use of the prohibited features will make your code not compile. If your code
-compiles succesfully, you are not using any prohibited features.
+compiles successfully, you are not using any prohibited features.
 
 ## Testing Your Implementation
 
@@ -122,17 +122,17 @@ After implementing every function correctly, every test will succeed.
 ```
 sbt:...> test
 ...
-[info] All tests passed:
+[info] All tests passed.
 ```
 
 (If you are working on Exercise #1, stop reading here. The remaining parts are
-for the other assigments.)
+for the other assignments.)
 
 ### REPL
 
 Any assignments other than Exercise #1 provide REPL.
-REPL allows you to input an arbitrary expression to your implementation and see the result.
-By using REPL, you can easily test your implementation without changing `Spec.scala`.
+REPL allows you to input an arbitrary expression into your implementation and see the result.
+Using REPL, you can quickly test your implementation without changing `Spec.scala`.
 
 Execute the `run` command to start REPL.
 Below is REPL of Exercise #3.
@@ -199,6 +199,9 @@ an implementation is missing
         cs320.Template.run$(Template.scala:5)
         cs320.Implementation$.run(Implementation.scala:5)
 ```
+
+If the fuzzer reports a failed case after you press `ctrl+c`, it is due to the
+abrupt termination, not a defect in your implementation, so you can ignore it.
 
 If your implementation correctly interprets a huge number of expressions, your
 implementation is highly likely to be correct.

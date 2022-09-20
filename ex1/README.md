@@ -1,6 +1,6 @@
 # Exercise #1: Scala Tutorial
 
-**Read the [common instructions](/) first if you have not read them.**
+**Read the [common instructions](..) first if you have not read them.**
 
 ## Download 
 
