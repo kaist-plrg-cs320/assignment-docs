@@ -1,6 +1,6 @@
 # Exercise #1: Scala Tutorial
 
-**Read the [common instructions](..) first if you have not read them.**
+**Read the [common instructions](https://github.com/kaist-plrg-cs320/assignment-docs) first if you have not read them.**
 
 ## Download 
 
@@ -110,3 +110,7 @@ val t2: Tree = Branch(Leaf(1), 2, Branch(Leaf(3), 4, Leaf(5)))
 test(flatten(t1), List(1, 2, 3))
 test(flatten(t2), List(1, 2, 3, 4, 5))
 ```
+
+## Sample Solution
+
+[`Implementation.scala`](./Implementation.scala)
