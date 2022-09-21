@@ -8,7 +8,7 @@ The course has 5 coding exercises (no submission required) and 3 projects
 * [Exercise #3: MVAE](/ex3)
 * [Exercise #5: MRFVAE](/ex5)
 * [Exercise #6: SRBFAE](/ex6)
-* Project #1: FIBER
+* [Project #1: FIBER](/proj1)
 * Project #2: X-FIBER
 * Project #3: FABRIC
 
@@ -212,8 +212,10 @@ implementation is highly likely to be correct.
 You must submit your `Implementation.scala` of each project.
 See the instructions for each project to find the submission link.
 
-You must work on each project by yourself without getting any help. Violation of
-the honor code will give you F.
+Violation of the honor code will give you F. 
+You must work on each project by yourself without getting any help.
+You can refer to the lecture materials, including
+the lecture slides, the textbook, and the sample solutions to the exercises.
 
 We disallow late submissions. If you submit multiple times, only the last
 submission will be graded.
