@@ -61,7 +61,7 @@ Note that `{ }` denotes a repetition of zero or more times.
 expr ::= ...
        | "{" expr {";" expr} "}"
        | "{" "}"
-       | "{" field "=" expr {"," id "=" field} "}"
+       | "{" field "=" expr {"," field "=" expr} "}"
        | expr "." field
        | "{" expr "." field "=" expr "}"
 ```
