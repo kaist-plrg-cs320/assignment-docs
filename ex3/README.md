@@ -55,7 +55,7 @@ Note that `{ }` denotes a repetition of zero or more times.
 
 ```
 expr ::= ...
-       | "( ")"
+       | "(" ")"
        | "(" num {"," num} ")"
        | "min" "(" expr "," expr "," expr ")"
        | "max" "(" expr "," expr "," expr ")"
