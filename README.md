@@ -220,9 +220,10 @@ the lecture slides, the textbook, and the sample solutions to the exercises.
 We disallow late submissions. If you submit multiple times, only the last
 submission will be graded.
 
-You can get maximum 100 points.
+You can get maximum 100 points. If your code uses a disallow feature or does not
+compile, you will get 0 points.
 
-* Test cases: 80 points
+* Test cases: 80 points (1 point per case)
 * Fuzzing: 20 points
 
 The test cases for the grading are similar to, but not the same as, those
