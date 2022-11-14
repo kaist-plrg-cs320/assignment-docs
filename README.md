@@ -9,8 +9,8 @@ The course has 5 coding exercises (no submission required) and 3 projects
 * [Exercise #5: MRFVAE](/ex5)
 * [Exercise #6: SRBFAE](/ex6)
 * [Project #1: FIBER](/proj1)
-* Project #2: X-FIBER
-* Project #3: FABRIC
+* [Project #2: X-FIBER](/proj2)
+* [Project #3: FABRIC](/proj3)
 
 ## Prerequisites
 
