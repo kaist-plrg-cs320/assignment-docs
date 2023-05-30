@@ -16,7 +16,7 @@ no restriction on the format and length of the essay.
 
 Submit your essay file at
 <https://kaist-cs320.appspot.com/assignment/Homework%201>.
-You can freely choose the name and extension of the file.
+Only `pdf` files are allowed to submit. You can freely choose the name the file.
 
 ## Downloading the script outside the campus
 
