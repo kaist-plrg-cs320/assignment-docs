@@ -238,3 +238,19 @@ We use 10,000 expressions for each student.
 The expressions are the same for every student.
 If your implementation behaves correctly for every expression, you will get 20
 points for the Fuzzing part. Otherwise, you will get 0 points.
+
+## FAQ
+
+### My code does not terminate or emits stack overflow error
+
+Though not the only cause, this usually happens in student's implementation when student tries to call `error()` function with some string interpolation, for example 
+
+```scala
+error(s"not both number: $x, $y")
+```
+
+Maybe changing the code to use plain string might solve the issue, like
+
+```scala
+error(s"not both number")
+```
