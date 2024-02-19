@@ -1,4 +1,4 @@
-# Homework #1: Growing a Language
+# Homework #2: Growing a Language
 
 ## Descriptions
 
@@ -15,7 +15,7 @@ no restriction on the format and length of the essay.
 ## Submission
 
 Submit your essay file at
-<https://kaist-cs320.appspot.com/assignment/Homework%201>.
+<https://kaist-cs320.appspot.com/assignment/Homework%202>.
 
 Only `pdf` files are allowed to submit. You can freely choose the file name.
 
