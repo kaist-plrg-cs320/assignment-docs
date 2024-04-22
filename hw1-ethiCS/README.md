@@ -5,6 +5,8 @@
 To give you an experience in ethical reasoning, we would like
 to invite you to work on an optional writing assignment for **bonus** points.
 
+Please refer to lecture slide for the content used in our offline lecture. (The slide is uploaded on Piazza.)
+
 Choose a programming language with which you are familiar, and discuss:
 
 * Which features of this language make it usable? and for whom?
