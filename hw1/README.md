@@ -1,4 +1,4 @@
-# Homework #2: Growing a Language
+# Homework #1: Growing a Language
 
 ## Descriptions
 
